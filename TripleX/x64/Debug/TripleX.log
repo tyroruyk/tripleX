@@ -1,3 +1,0 @@
-﻿  main.cpp
-C:\Users\avish\Documents\Visual Studio 2022\Projects\TripleX\TripleX\src\main.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  TripleX.vcxproj -> C:\Users\avish\Documents\Visual Studio 2022\Projects\TripleX\x64\Debug\TripleX.exe

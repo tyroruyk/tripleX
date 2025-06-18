@@ -27,7 +27,7 @@ bool PlayerGuess(int levelDifficulty)
 	// Taking user input for PIN
 	int guessA, guessB, guessC;
 	do {
-	    court << endl << "Enter the PIN: ";
+	    cout << endl << "Enter the PIN: ";
 	    cin >> guessA >> guessB >> guessC;
 	} while (guessA < 0 || guessA > 9 || guessB < 0 || guessB > 9 || guessC < 0 || guessC > 9);
 	

@@ -43,8 +43,8 @@ bool PlayerGuess(int levelDifficulty)
 		return true;
 	}
 	else {
-		cout << "*** You've entered the wrong code... Careful agent! Try again... ***";
 		system("cls || clear");
+		cout << "*** You've entered the wrong code... Careful agent! Try again... ***";
 		return false;
 	}
 }

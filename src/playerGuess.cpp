@@ -38,11 +38,13 @@ bool PlayerGuess(int levelDifficulty)
 
 	// Checking if the code is correct or not
 	if (guessSum == digitSum && guessProduct == digitProduct) {
+		system("cls || clear");
 		cout << "*** Well done, agent! You've extracted a file successfully! Keep Going... ***";
 		return true;
 	}
 	else {
 		cout << "*** You've entered the wrong code... Careful agent! Try again... ***";
+		system("cls || clear");
 		return false;
 	}
 }

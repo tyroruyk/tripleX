@@ -6,6 +6,7 @@ bool PlayerGuess(int levelDifficulty);
 int main()
 {
 	system("COLOR 02");
+	system("cls || clear");
 	srand(time(NULL));
 
 	cout << "### Welcome to Avishek's TripleX! ###" << endl << endl;
